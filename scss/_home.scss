@@ -1,0 +1,125 @@
+/*** Icon block ***/
+.icon-block {
+  padding: 15px 15px;
+  min-height: 280px;
+
+  @media only screen and (min-width: $small-screen) and (max-width:  $medium-screen) {
+    min-height: 300px;
+    padding: 8px 8px;
+  }
+
+  @media only screen and (max-width: $small-screen) {
+    min-height: 210px;
+  }
+
+  @media only screen and (max-width: $small-screen) {
+    min-height: 210px;
+  }
+
+  .material-icons {
+    font-size: inherit;
+  }
+}
+
+/*** Slider ***/
+.slider {
+
+  margin-bottom: -40px;
+
+  .indicators {
+
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 2;
+    bottom: 60px;
+
+    .indicator-item.active {
+      background-color: #478CBF;
+    }
+  }
+  .container {
+
+  }
+}
+
+.card.hl-article{
+
+  .card-image{
+
+
+    img{
+      //height: 200px;
+      //width: 200px;
+    }    
+  }
+
+
+
+  .publish-date{
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .card-content{
+    text-align: center;
+    padding-top: 15px;
+    min-height: 150px;
+  }
+
+  .card-title{
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    font-size: 21px;
+  }
+}
+
+.get-started{
+  margin-bottom: -30px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  /*background-color: #fff;*/
+
+  h1{
+    margin-top: 0;
+    font-size: 42px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+}
+
+.features-banner{
+  background: url('../../assets/img/home/features.png') no-repeat center right;
+  background-color: $features-bg-color;
+  background-size: contain;
+  display: block;
+
+  h4{
+    color: $features-color;
+    margin: 0.5rem 0 0.912rem 40px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 44px;
+  }
+}
+
+.roadmap-banner{
+  background: url('../../assets/img/home/roadmap.png') no-repeat center right;
+  background-color: $roadmap-bg-color;
+  background-size: contain;
+  display: block;
+
+  h4{
+    color: $roadmap-color;
+    margin: 0.5rem 0 0.912rem 40px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 44px;
+  }
+}

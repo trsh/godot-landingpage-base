@@ -1,0 +1,97 @@
+/*** Global styles ***/
+p {
+  line-height: 2rem;
+}
+
+body {
+  background: $godot-bg;
+}
+
+.material-icons {
+  color: $godot-blue;
+}
+
+.btn{
+  a{
+    color: $button-color-raised;
+  }
+}
+
+i{
+  color: $godot-blue;
+}
+
+/*** Navigation, header ***/
+nav {
+  ul a,
+  .brand-logo {
+    color: $godot-nav-color;
+  }
+
+  .button-collapse {
+    color: $godot-blue;
+  }
+}
+
+/*** Footer ***/
+footer.page-footer {
+  margin: 0;
+  background-color: #2D3D4D;
+  margin-top: 60px;
+}
+
+/*** Reusable boxes ***/
+.html-box-row-2 {
+  height: 100px;
+  max-height: 100px;
+}
+
+.html-box-row {
+  height: 220px;
+  max-height: 220px;
+}
+
+$section-border-color: #dddddd;
+
+/*** Reusable sections ***/
+.section{
+  .row{
+    margin-bottom: 0;
+  }
+}
+.section-title {
+  position: relative;
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: $godot-blue;
+
+  span.section-title-content {
+    position: relative;
+    display: inline-block;
+    padding-right: 1.4em;
+    background: $godot-bg;
+
+    i, img {
+      padding: 6px;
+      border-radius: 50%;
+      color: $section-border-color;
+      border: 4px solid $section-border-color;
+      margin-right: 16px;
+      font-size: 24px;
+    }
+    img{
+      vertical-align:middle;
+    }
+  }
+}
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid $section-border-color;
+}
