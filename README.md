@@ -1,4 +1,4 @@
-# godot-landingpage-base
+# godot-landingpage-base (moved to https://github.com/godotengine/godot-website)
 Godot new landing-page initial layout
 
 <b>Usage:</b>
